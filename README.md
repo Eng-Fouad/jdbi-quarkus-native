@@ -46,3 +46,8 @@ output:
 output:
 
     [User{id=2, name='Amelia'}, User{id=1, name='Harper'}]
+
+Reference:
+
+[Using JDBI in Quarkus (native mode)
+](https://gist.github.com/Eng-Fouad/7b5925481dd391fcc74487a68484b987)
