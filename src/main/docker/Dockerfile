@@ -1,5 +1,5 @@
 ## Stage 1: build with gradle builder image with native capabilities
-FROM quay.io/quarkus/ubi-quarkus-mandrel:22.1-java17-amd64 AS stage1
+FROM quay.io/quarkus/ubi-quarkus-mandrel:22.2-java17 AS stage1
 USER root
 RUN microdnf install findutils
 COPY --chown=quarkus:quarkus gradle /code/gradle
